@@ -1,0 +1,50 @@
+{
+  "name": "back-end-template",
+  "version": "1.0.0",
+  "description": "Template to bootstrap node back end",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src",
+    "test": "nyc mocha --exit -t 30000",
+    "lint": "eslint src/**/*.js",
+    "fix": "eslint src/**/* --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vDurand/back-end-template.git"
+  },
+  "keywords": [
+    "jwt",
+    "mongo",
+    "postgresql"
+  ],
+  "author": "vDurand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vDurand/back-end-template/issues"
+  },
+  "homepage": "https://github.com/vDurand/back-end-template#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.2",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.2",
+    "morgan-body": "^2.4.7",
+    "rand-token": "^0.4.0"
+  }
+}
