@@ -40,7 +40,7 @@
   "dependencies": {
     "app-module-path": "^2.2.0",
     "bcrypt": "^3.0.6",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-validator": "^6.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.3.2",
